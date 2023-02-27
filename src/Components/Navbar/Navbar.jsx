@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import { MdOutlineTravelExplore} from 'react-icons/md';
+import { MdOutlineTravelExplore } from 'react-icons/md';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { TbGridDots } from 'react-icons/tb';
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           <a href="#" className="logo flex">
             <h1>
               <MdOutlineTravelExplore className="icon" />
-              Travel.
+              Travel
             </h1>
           </a>
         </div>
